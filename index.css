@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+/* LAYOUT */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875em 0.750em;
+    border-bottom: solid 1px #C6C6C6; 
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0.5em;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 375px;
+}
+
+.user-avatar,
+.avatar {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.avatar {
+    margin-right: 0.5em;
+}
+
+.post {
+    width: 100%;
+}
+
+
+.user,
+.comment {
+    display: inline-block;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon {
+    width: 34px;
+    margin-right: 1em;
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover {
+    opacity: 0.6;
+}
+
+.icon,
+.likes,
+.user {
+    padding-bottom: 0.750em;
+}
+
+.comment {
+    padding-bottom: 1.5em;
+}
+
+.foot {
+    padding: 1em;
+}
+
+
+
+
+
+/* TYPOGRAPHY */
+
+.text,
+.textBold {
+    margin: 0;
+}
+
+.textBold {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
