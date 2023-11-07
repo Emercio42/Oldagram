@@ -61,7 +61,6 @@ function getFeedHtml(){
     return feedHtml
 } 
 
-// Call the function to generate and insert the HTML content
 function render(){
     document.getElementById('feed').innerHTML = getFeedHtml()
 }
